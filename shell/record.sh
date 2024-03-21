@@ -2,7 +2,7 @@
  
 file_name=/home/hei/Videos/raspicam_
 
-for i in `seq 1 1 1` 
+for i in `seq 1 1 120` 
 do
 
 	# Early kill if connects to home network
