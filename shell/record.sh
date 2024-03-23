@@ -6,7 +6,7 @@ for i in `seq 1 1 120`
 do
 
 	# Early kill if connects to home network
-	if [ $(iwgetid -r) = 'Winternet-5G' ]; 
+	if [ "$(iwgetid -r)" = "Winternet-5G" ]; 
 	then
 		echo
 		echo "ALERT: Connected to home network."
